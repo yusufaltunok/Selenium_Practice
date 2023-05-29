@@ -30,8 +30,8 @@ public class C07_ManageWindowSet {
         driver.manage().window().setPosition(new Point(600,600));
         driver.manage().window().setSize(new Dimension(1000,700));
 
-//        System.out.println("Sayfa Yeni Konumu = " + driver.manage().window().getPosition());
-//        System.out.println("Sayfa Yeni  Boyutu = " + driver.manage().window().getSize());
+        System.out.println("Sayfa Yeni Konumu = " + driver.manage().window().getPosition());
+        System.out.println("Sayfa Yeni  Boyutu = " + driver.manage().window().getSize());
 
         Point actualPosition = driver.manage().window().getPosition();
         Dimension actualSize = driver.manage().window().getSize();
@@ -44,7 +44,22 @@ public class C07_ManageWindowSet {
             System.out.println("Test PASSED");
         }else System.out.println("Test FAILED");
 
+/*
+        Dimension newSize = driver.manage().window().getSize();
+        Point newPosition = driver.manage().window().getPosition();
 
+        if (newPosition.getX() == 148 && newPosition.getY() == 148) {
+            System.out.println("KONUM TESTI PASSED");
+        } else System.out.println("KONUM TESTI FAIL" + newPosition);
+
+
+        if (newSize.getHeight() == 600 & newSize.getWidth() == 800) {
+            System.out.println("BOYUT TESTI PASSED");
+        } else {
+            System.out.println("BOYUT TESTI FAIL" + newSize);
+        }
+
+ */
 
     }
 }
