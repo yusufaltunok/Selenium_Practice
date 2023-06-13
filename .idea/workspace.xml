@@ -4,35 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b764a7ce-256e-4a10-99e1-f8e6edf4aafa" name="Changes" comment="28/05/23-1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/JUnit/checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/JUnit/img225x225.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/AmazonIlk5Urun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/Techproeducation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/heroku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03/C01_TekrarTesti2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03/yuzKezAddButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/AmazonKategori.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/ClaraMentor01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/HerokuappOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/ZeroWebAppSecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/odev3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/GoogleHomework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/KitapYurdu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Nutella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Saucedemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/YoutubeAssertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/demoqa/DemoqaComCalisma.java" afterDir="false" />
+    <list default="true" id="b764a7ce-256e-4a10-99e1-f8e6edf4aafa" name="Changes" comment="12/06/23">
+      <change afterPath="$PROJECT_DIR$/src/test/java/MetroTur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/WindowHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day01/Util.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +67,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.DemoqaComCalisma.test01">
+  <component name="RunManager" selected="JUnit.WindowHandle.WindowHandle">
     <configuration name="DemoqaComCalisma.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumNewProject" />
       <extension name="coverage">
@@ -104,6 +83,32 @@
       <option name="PACKAGE_NAME" value="practice.demoqa" />
       <option name="MAIN_CLASS_NAME" value="practice.demoqa.DemoqaComCalisma" />
       <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetroTur.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumNewProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MetroTur" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowHandle.WindowHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumNewProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="odevler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="odevler" />
+      <option name="MAIN_CLASS_NAME" value="odevler.WindowHandle" />
+      <option name="METHOD_NAME" value="WindowHandle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,37 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="automationexercise09" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumNewProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.automationexercise09" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="automationexercise09.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumNewProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.automationexercise09" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="seleniumPractice" />
       <method v="2">
@@ -187,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WindowHandle.WindowHandle" />
+        <item itemvalue="JUnit.MetroTur.test" />
         <item itemvalue="JUnit.DemoqaComCalisma.test01" />
         <item itemvalue="JUnit.automationexercise05.test01" />
         <item itemvalue="JUnit.automationexercise03.test01" />
-        <item itemvalue="JUnit.automationexercise09.test" />
-        <item itemvalue="JUnit.automationexercise09" />
       </list>
     </recent_temporary>
   </component>
@@ -225,13 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685360510422</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="12/06/23">
+      <created>1686579206143</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686579206143</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="28/05/23" />
     <MESSAGE value="28/05/23-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="28/05/23-1" />
+    <MESSAGE value="12/06/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="12/06/23" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
