@@ -8,26 +8,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import utilities.TestBase;
 
 import java.time.Duration;
 import java.util.List;
 
-public class MetroTur {
+public class MetroTur extends TestBase {
 
-    WebDriver driver;
-
-    @Before
-    public void setUp() throws Exception {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-    }
-
-    @After
-    public void tearDown() throws Exception {
-        //driver.close();
-    }
 
     @Test
     public void test() {
@@ -80,7 +67,7 @@ public class MetroTur {
         for (int i = 0; i < 5; i++) {
             bosKoltuklar = driver.findElements(By.xpath("//*[@ng-if='!col.isSold']"));
             bosKoltuklar.get(i).click();
-           // System.out.println("Seçilen  = " + (i+1) + ".koltuk = " + bosKoltuklar.get(i).getText());
+          //  System.out.println("Seçilen  = " + (i+1) + ".koltuk = " + bosKoltuklar.get(i).getText());
         }
         bekle(2);
 
@@ -89,16 +76,44 @@ public class MetroTur {
         //Dönüş seferi seç butonuna tıkla.
         driver.findElement(By.xpath("(//*[@id='btnChooseReturnJourney'])[1]")).click();
 
+        // Açılan menüden en üstteki seç'e tıkla
+        driver.findElement(By.xpath("(//*[@class='btn btn-select ngSelectJourneyReturn'])[1]")).click();
+        bekle(2);
 
-        //  locate ==>     (//*[@class="btn btn-select ngSelectJourneyReturn"])[1]
+        List<WebElement> bosKoltukDonus ;
+        for (int i = 0; i < 5; i++) {
+            bosKoltukDonus = driver.findElements(By.xpath("(//i[@class='icon-seat-empty']) [position()>=29 and position()<=58]"));
+            bosKoltukDonus.get(i).click();
+        //    System.out.println("Seçilen  = " + (i+1) + ".koltuk = " + bosKoltuklar.get(i).getText());
 
-    }
-
-    public void bekle(int saniye) {
-        try {
-            Thread.sleep(saniye * 1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
         }
+        //ekranda açılan alert penceresini kapat.
+        driver.switchTo().alert().accept();
+
+        //"Dönüş Seferi Seç" butonuna tıkla
+        driver.findElement(By.xpath("(//*[@id='btnChooseReturnJourney'])[2]")).click();
+
+        // " Ödeme Sayfasına Geç" butonuna tıkla
+        driver.findElement(By.xpath("(//*[@id='btnDoPaymentPage'])[2]")).click();
+
+        //
+        WebElement cinsiyet1 = driver.findElement(By.xpath("selGender9"));
+        WebElement cinsiyet2 = driver.findElement(By.xpath("selGender8"));
+        WebElement cinsiyet3 = driver.findElement(By.xpath("selGender4"));
+        WebElement cinsiyet4 = driver.findElement(By.xpath("selGender12"));
+
+        Select select1 = new Select(cinsiyet1);
+        Select select2 = new Select(cinsiyet2);
+        Select select3 = new Select(cinsiyet3);
+        Select select4 = new Select(cinsiyet4);
+
+        select1.selectByIndex(1);
+        select2.selectByIndex(1);
+        select3.selectByIndex(0);
+        select4.selectByIndex(0);
+
     }
+
+
+
 }

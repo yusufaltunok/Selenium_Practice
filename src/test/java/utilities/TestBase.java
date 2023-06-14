@@ -30,7 +30,7 @@ public abstract class TestBase {
     @After
     public void tearDown() throws Exception {
         bekle(2);
-        driver.quit();
+      //  driver.quit();
 
     }
     //HARD WAIT (Bekleme Methodu)

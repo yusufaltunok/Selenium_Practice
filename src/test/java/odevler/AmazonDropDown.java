@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.time.Duration;
 import java.util.List;
 
-public class odev3 {
+public class AmazonDropDown {
     /*
     -Amazon sayfasına gidelim
         -Arama Kutusundaki Dropdown menuyu yazdıralım

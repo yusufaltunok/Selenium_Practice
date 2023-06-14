@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b764a7ce-256e-4a10-99e1-f8e6edf4aafa" name="Changes" comment="12/06/23">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MetroTur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/WindowHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/ClaraMentor02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/Emoji.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MetroTur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MetroTur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odevler/odev3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/odevler/AmazonDropDown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,17 +73,49 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WindowHandle.WindowHandle">
-    <configuration name="DemoqaComCalisma.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ClaraMentor02.test01">
+    <configuration name="Alert.rest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumNewProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.demoqa.*" />
+          <option name="PATTERN" value="odevler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="practice.demoqa.DemoqaComCalisma" />
+      <option name="PACKAGE_NAME" value="odevler" />
+      <option name="MAIN_CLASS_NAME" value="odevler.Alert" />
+      <option name="METHOD_NAME" value="rest01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClaraMentor02.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumNewProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="odevler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="odevler" />
+      <option name="MAIN_CLASS_NAME" value="odevler.ClaraMentor02" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Emoji.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumNewProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="odevler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="odevler" />
+      <option name="MAIN_CLASS_NAME" value="odevler.Emoji" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -114,38 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="automationexercise03.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumNewProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.automationexercise03" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="automationexercise05.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumNewProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.automationexercise05" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="seleniumPractice" />
       <method v="2">
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WindowHandle.WindowHandle" />
+        <item itemvalue="JUnit.ClaraMentor02.test01" />
         <item itemvalue="JUnit.MetroTur.test" />
-        <item itemvalue="JUnit.DemoqaComCalisma.test01" />
-        <item itemvalue="JUnit.automationexercise05.test01" />
-        <item itemvalue="JUnit.automationexercise03.test01" />
+        <item itemvalue="JUnit.Emoji.test01" />
+        <item itemvalue="JUnit.Alert.rest01" />
+        <item itemvalue="JUnit.WindowHandle.WindowHandle" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686579206143</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="12/06/23">
+      <created>1686691652879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686691652879</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
