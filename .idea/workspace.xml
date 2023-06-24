@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b764a7ce-256e-4a10-99e1-f8e6edf4aafa" name="Changes" comment="18/06/23">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q4_GrupCalismalari/Hepsiburada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q4_GrupCalismalari/Sahibinden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q4_GrupCalismalari/Wait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/Cizim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/GenelTekrar.java" afterDir="false" />
+    <list default="true" id="b764a7ce-256e-4a10-99e1-f8e6edf4aafa" name="Changes" comment="13/06/23">
+      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/Ccc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MetroTur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/odevler/Emoji.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/odevler/Emoji.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odevler/Cizim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/odevler/Cizim.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +70,33 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Hepsiburada.test01">
-    <configuration name="C01.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Ccc.test01">
+    <configuration name="Ccc.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumNewProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="C01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="odevler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="odevler" />
+      <option name="MAIN_CLASS_NAME" value="odevler.Ccc" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cizim.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumNewProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="odevler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="odevler" />
+      <option name="MAIN_CLASS_NAME" value="odevler.Cizim" />
       <option name="METHOD_NAME" value="name" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -98,22 +113,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Q4_GrupCalismalari" />
       <option name="MAIN_CLASS_NAME" value="Q4_GrupCalismalari.Hepsiburada" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Wait.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumNewProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Q4_GrupCalismalari.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Q4_GrupCalismalari" />
-      <option name="MAIN_CLASS_NAME" value="Q4_GrupCalismalari.Wait" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -167,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ccc.test01" />
+        <item itemvalue="JUnit.Cizim.name" />
         <item itemvalue="JUnit.Hepsiburada.test01" />
         <item itemvalue="JUnit.automationexercise09.test" />
         <item itemvalue="JUnit.automationexercise06.test" />
-        <item itemvalue="JUnit.C01.name" />
-        <item itemvalue="JUnit.Wait.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687207071292</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="13/06/23">
+      <created>1687530154938</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687530154938</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,7 +248,8 @@
     <MESSAGE value="12/06/23" />
     <MESSAGE value="15/06/23" />
     <MESSAGE value="18/06/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="18/06/23" />
+    <MESSAGE value="13/06/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="13/06/23" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

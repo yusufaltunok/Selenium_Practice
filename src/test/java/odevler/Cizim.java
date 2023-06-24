@@ -59,4 +59,26 @@ public class Cizim extends TestBase {
 //        - Çizimden sonra clear butonuna basınız
         //driver.findElement(By.xpath("//button[@class='button clear']")).click();
     }
+
+    @Test
+    public void name() throws InterruptedException {
+        driver.get("http://szimek.github.io/signature_pad/");
+        WebElement yaziTahtasi = driver.findElement(By.xpath("//canvas"));
+        Actions actions = new Actions(driver).clickAndHold(yaziTahtasi);
+
+        for (int i = 0; i < 10; i++) {
+            actions.moveByOffset(-5,-5);
+        }
+        for (int i = 0; i < 10; i++) {
+            actions.moveByOffset(0,5);
+        }
+        for (int i = 0; i < 10; i++) {
+            actions.moveByOffset(5,0);
+        }
+        actions.release().build().perform();
+
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//*[text()='Clear']")).click();
+
+    }
 }
