@@ -14,10 +14,7 @@ public class Mercedes extends TestBase {
         driver.get("https://www.mercedes-benz.com.tr/?group=all&subgroup=see-all&view=BODYTYPE");
 
         SearchContext searchContext = driver.findElement(By.xpath("//cmm-cookie-banner[@class='hydrated']")).getShadowRoot();
-
-        WebElement cerez = searchContext.findElement(By.className("button"));
-        cerez.click();
-
+        searchContext.findElement(By.className("button")).click();
 
     }
 

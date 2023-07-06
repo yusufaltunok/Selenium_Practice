@@ -24,8 +24,6 @@ public class automationexercise08 extends TestBase {
 //        5. Kullanıcının TÜM ÜRÜNLER sayfasına başarıyla yönlendirildiğini
 
 
-
-
 //        6. Ürün listesi görünür
         WebElement urunListe = driver.findElement(By.xpath("(//h2)[3]"));
         Assert.assertTrue(urunListe.isDisplayed());
