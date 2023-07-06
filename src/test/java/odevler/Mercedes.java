@@ -12,10 +12,19 @@ public class Mercedes extends TestBase {
     public void test01() {
         // https://www.mercedes-benz.com.tr/?group=all&subgroup=see-all&view=BODYTYPE sayfasına git çerezleri kabul et
         driver.get("https://www.mercedes-benz.com.tr/?group=all&subgroup=see-all&view=BODYTYPE");
+        SearchContext shadowRoot = driver.findElement(By.tagName("cmm-cookie-banner")).getShadowRoot();
+        shadowRoot.findElement(By.className("button")).click();
 
-        SearchContext searchContext = driver.findElement(By.xpath("//cmm-cookie-banner[@class='hydrated']")).getShadowRoot();
-        searchContext.findElement(By.className("button")).click();
+        // alternatif çozum
+
+//        SearchContext searchContext = driver.findElement(By.xpath("//cmm-cookie-banner[@class='hydrated']")).getShadowRoot();
+//        searchContext.findElement(By.className("button")).click();
+
+
+
 
     }
+
+
 
 }
