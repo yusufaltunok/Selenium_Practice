@@ -2,6 +2,7 @@ package odevler;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import utilities.TestBase;
@@ -81,4 +82,45 @@ public class Cizim extends TestBase {
         driver.findElement(By.xpath("//*[text()='Clear']")).click();
 
     }
+
+    @Test
+    public void test03() {
+        driver.get("http://szimek.github.io/signature_pad/");
+
+        WebElement canvas = driver.findElement(By.xpath("(//*[@class='signature-pad--body'])/canvas"));
+        int canvasWidth = canvas.getSize().getWidth();
+        int canvasHeight = canvas.getSize().getHeight();
+        int centerX = canvasWidth / 2;
+        int centerY = canvasHeight / 2;// tahtanın ortasını bulduk
+        int radius = Math.min(canvasWidth, canvasHeight) / 4; // Yarı çapı canvas boyutlarına gore ayarlama
+        int numPoints = 5;
+        double angle = 2 * Math.PI / numPoints;
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+        // Yıldız çizimini JavaScript kodu ile gerçekleştir
+        StringBuilder jsCode = new StringBuilder();
+        jsCode.append("var canvas = arguments[0];");
+        jsCode.append("var context = canvas.getContext('2d');");
+        jsCode.append("context.beginPath();");
+        jsCode.append("context.moveTo(arguments[1], arguments[2]);");
+
+        for (int i = 1; i <= numPoints * 2; i++) {
+            int x, y;
+            if (i % 2 == 0) {
+                x = (int) (centerX + radius * Math.cos(i * angle));
+                y = (int) (centerY + radius * Math.sin(i * angle));
+            } else {
+                x = centerX;
+                y = centerY;
+            }
+            jsCode.append("context.lineTo(").append(x).append(",").append(y).append(");");
+        }
+
+        jsCode.append("context.closePath();");
+        jsCode.append("context.stroke();");
+
+        js.executeScript(jsCode.toString(), canvas, centerX, centerY);
+    }
+
 }

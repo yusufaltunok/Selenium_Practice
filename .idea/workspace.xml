@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b764a7ce-256e-4a10-99e1-f8e6edf4aafa" name="Changes" comment="04/07/23">
-      <change afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise13.java" afterDir="false" />
+    <list default="true" id="b764a7ce-256e-4a10-99e1-f8e6edf4aafa" name="Changes" comment="06/07/23">
+      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/DemoTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/ExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/odevler/ShadowRoot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/odevler/HesapMakinasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/odevler/HesapMakinasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/automationexercise13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odevler/Cizim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/odevler/Cizim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/odevler/Mercedes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/odevler/Mercedes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/ulkeler.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resourcess/ulkeler.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +80,8 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.automationexercise13.test01">
-    <configuration name="HesapMakinasi.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExtentReport.test02">
+    <configuration name="DemoTable.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumNewProject" />
       <extension name="coverage">
         <pattern>
@@ -91,71 +90,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="odevler" />
-      <option name="MAIN_CLASS_NAME" value="odevler.HesapMakinasi" />
+      <option name="MAIN_CLASS_NAME" value="odevler.DemoTable" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="automationexercise10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtentReportXxxxx.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumNewProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
+          <option name="PATTERN" value="odevler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.automationexercise10" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="automationexercise11.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumNewProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.automationexercise11" />
+      <option name="PACKAGE_NAME" value="odevler" />
+      <option name="MAIN_CLASS_NAME" value="odevler.ExtentReportXxxxx" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="automationexercise12.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtentReportXxxxx.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumNewProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
+          <option name="PATTERN" value="odevler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.automationexercise12" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="odevler" />
+      <option name="MAIN_CLASS_NAME" value="odevler.ExtentReportXxxxx" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="automationexercise13.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtentReport.deneme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumNewProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
+          <option name="PATTERN" value="odevler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.automationexercise13" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="odevler" />
+      <option name="MAIN_CLASS_NAME" value="odevler.ExtentReport" />
+      <option name="METHOD_NAME" value="deneme" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtentReport.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumNewProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="odevler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="odevler" />
+      <option name="MAIN_CLASS_NAME" value="odevler.ExtentReport" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.automationexercise13.test01" />
-        <item itemvalue="JUnit.HesapMakinasi.test01" />
-        <item itemvalue="JUnit.automationexercise12.test01" />
-        <item itemvalue="JUnit.automationexercise11.test01" />
-        <item itemvalue="JUnit.automationexercise10" />
+        <item itemvalue="JUnit.ExtentReport.test02" />
+        <item itemvalue="JUnit.ExtentReportXxxxx.test02" />
+        <item itemvalue="JUnit.ExtentReportXxxxx.test01" />
+        <item itemvalue="JUnit.ExtentReport.deneme" />
+        <item itemvalue="JUnit.DemoTable.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688493661487</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="06/07/23">
+      <created>1688663317459</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688663317459</updated>
+    </task>
+    <task id="LOCAL-00012" summary="06/07/23">
+      <created>1688676483432</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688676483432</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,7 +289,8 @@
     <MESSAGE value="13/06/23" />
     <MESSAGE value="24/06/23" />
     <MESSAGE value="04/07/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="04/07/23" />
+    <MESSAGE value="06/07/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="06/07/23" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

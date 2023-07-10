@@ -16,6 +16,7 @@ public class automationexercise13 extends TestBase {
         //2. 'http://automationexercise.com' URL'sine gidin
         driver.get("http://automationexercise.com");
 
+
         //3. Ana sayfanın başarıyla göründüğünü doğrulayın
         Assert.assertEquals("Automation Exercise", driver.getTitle());
         Actions actions = new Actions(driver);
